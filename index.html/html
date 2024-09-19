@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Farmacia</title>
+    <link rel="stylesheet" href="index.css"> <!-- Vinculamos el archivo CSS -->
+</head>
+<body>
+    <nav>
+        <h1>Farmacia Online</h1>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Bienvenidos a nuestra farmacia en línea</h2>
+        <p>Aquí podrás encontrar una gran variedad de productos farmacéuticos a tu disposición.</p>
+        <button id="cambiarColor">Cambiar Estilo</button>
+    </section>
+
+    <footer>
+        <p>© 2024 Farmacia Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="index.js"></script> <!-- Vinculamos el archivo JS -->
+</body>
+</html>
