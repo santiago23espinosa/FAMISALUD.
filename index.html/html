@@ -3,29 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página de Farmacia</title>
-    <link rel="stylesheet" href="index.css"> <!-- Vinculamos el archivo CSS -->
+    <title>FAMISALUD - Tu Farmacia en Línea</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <h1>Farmacia Online</h1>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">FAMISALUD</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+        <section id="inicio">
+            <h1>Bienvenido a FAMISALUD</h1>
+            <p>Tu farmacia de confianza en línea</p>
+        </section>
 
-    <section>
-        <h2>Bienvenidos a nuestra farmacia en línea</h2>
-        <p>Aquí podrás encontrar una gran variedad de productos farmacéuticos a tu disposición.</p>
-        <button id="cambiarColor">Cambiar Estilo</button>
-    </section>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <input type="text" id="buscador" placeholder="Buscar productos...">
+            <div class="producto-container">
+                <!-- Los productos se agregarán dinámicamente con JavaScript -->
+            </div>
+        </section>
 
-    <footer>
-        <p>© 2024 Farmacia Online. Todos los derechos reservados.</p>
-    </footer>
-
-    <script src="index.js"></script> <!-- Vinculamos el archivo JS -->
-</body>
-</html>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Entrega a domicilio</li>
+                <li>Consulta en línea</li>
+                <li>Recetas electrónicas</li>
+            </ul>
+        </section>
+        
